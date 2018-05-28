@@ -1,0 +1,89 @@
+body {
+	font-family: helvetica;
+
+}
+
+.movie-list {
+  background: #fff;
+  padding: 8px;
+  border: 0;
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  margin-right: 20px;
+  text-align: center;
+}
+
+.movie {
+  font-size: 16px;
+  padding: 8px;
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  width: 400px;
+  text-align: left;	
+  margin-left: auto;
+  margin-right: auto;
+  display: inline;
+}
+
+h1 {
+	width: 200px;
+  margin-left: auto;
+  margin-right: 389px;
+
+}
+
+.container {
+  width: 430px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search {
+	text-align: left;
+}
+
+#searchField {
+	height: 30px;
+	font-size: 20px;
+	text-align: center;
+}
+
+button {
+	border-radius: 10px;
+	height: 50px;
+	width: 100px;
+	font-size: 16px;
+	font-weight: 200;
+	background-color: #96ce7b;
+	color: white;
+	letter-spacing: 1.5px;
+	margin-top: 30px;
+	position: relative;
+  left: 148px;
+  display: show;
+}
+
+.funcButton{
+	border-radius: 10px;
+	height: 38px;
+	width: auto;
+	font-size: 17px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+	background-color: #efefef;
+	font-weight: bold;
+}
+
+#Watched {
+	display: inline;
+	height: 40px;
+	width: auto;
+
+}
+
+#Unwatched {
+	display: inline;
+	height: 40px;
+	width: auto;
+	color: #96ce7b;
+	background-color: white;
+}

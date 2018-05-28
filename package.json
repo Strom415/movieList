@@ -1,0 +1,32 @@
+{
+  "name": "movielist",
+  "version": "1.0.0",
+  "description": "its a list of movies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel . --out-dir compiled --presets=env,react --ignore=node_modules,compiled --source-maps inline --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Strom415/movieList.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Strom415/movieList/issues"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.2",
+    "jquery": "^2.2.1",
+    "lodash": "^4.6.1",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.5.0"
+  },
+  "homepage": "https://github.com/Strom415/movieList#readme"
+}
